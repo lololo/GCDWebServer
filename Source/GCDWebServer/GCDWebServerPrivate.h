@@ -142,7 +142,7 @@ extern void GCDWebServerLogMessage(GCDWebServerLoggingLevel level, NSString* _No
       abort();                    \
     }                             \
   } while (0)
-#define GWS_DNOT_REACHED() abort()
+#define GWS_DNOT_REACHED()
 
 #else
 
