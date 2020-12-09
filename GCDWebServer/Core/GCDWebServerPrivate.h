@@ -136,12 +136,7 @@ extern void GCDWebServerLogMessage(GCDWebServerLoggingLevel level, NSString* _No
 
 #if DEBUG
 
-#define GWS_DCHECK(__CONDITION__) \
-  do {                            \
-    if (!(__CONDITION__)) {       \
-      abort();                    \
-    }                             \
-  } while (0)
+#define GWS_DCHECK(__CONDITION__)
 #define GWS_DNOT_REACHED() 
 
 #else
