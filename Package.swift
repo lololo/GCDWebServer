@@ -12,7 +12,7 @@ let package = Package(
     targets: [
         .target(name: "GCDWebServer",
                 dependencies: [],
-                publicHeadersPath:""
+                publicHeadersPath:"*.h"
                 )
     ]
 )
